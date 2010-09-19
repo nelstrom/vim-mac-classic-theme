@@ -5,6 +5,7 @@
 " License:      public domain
 " Version:      0.1
 
+" Boilerplate: {{{1
 set background=light
 highlight clear
 
@@ -14,6 +15,38 @@ endif
 
 let g:colors_name = "Mac Classic"
 
+" Colors: {{{1
+" #000000
+" #0000A2
+" #0000CD
+" #0066FF
+" #007B22
+" #00BC41
+" #036A07
+" #1C02FF
+" #1E39F6
+" #26B31A
+" #318495
+" #3C4C72
+" #526CF8
+" #585CF6
+" #6D79DE
+" #6E79F1
+" #808080
+" #990000
+" #FFE6BB
+" #C6DEFF
+" #CFCFCF
+" #D51015
+" #DFDFDF
+" #E18AC7
+" #EFEFEF
+" #F0F6FF
+" #FFCE77
+" #FFFFFF
+" }}}
+
+" GUI: {{{1
 hi Cursor  guifg=#ffffff guibg=#526CF8 gui=NONE
 hi Visual  guifg=NONE guibg=#c6deff gui=NONE
 hi CursorLine  guifg=NONE guibg=#f0f6ff gui=NONE
@@ -26,11 +59,12 @@ hi PmenuSel  guifg=NONE guibg=#c6deff gui=NONE
 hi Directory  guifg=#d51015 guibg=NONE gui=bold
 hi Folded  guifg=#0066ff guibg=#ffffff gui=NONE
 
-" StatusLine
-hi StatusLine  guifg=#000000 guibg=#c6deff gui=NONE
+" StatusLine: {{{1
+hi StatusLine  guifg=#000000 guibg=#c6deff gui=italic
 hi StatusLineNC  guifg=#000000 guibg=#efefef gui=NONE
 
-" Search matches [IncSearch is stronger than Search]
+" Search: {{{1
+" [IncSearch is stronger than Search]
 hi IncSearch  guifg=NONE guibg=#ffce77 gui=NONE
 hi Search  guifg=NONE guibg=#FFE6BB gui=NONE
 
@@ -111,11 +145,10 @@ hi yamlAnchor  guifg=#318495 guibg=NONE gui=NONE
 hi yamlAlias  guifg=#318495 guibg=NONE gui=NONE
 hi yamlDocumentHeader  guifg=NONE guibg=#f2f2f2 gui=NONE
 
-" CSS styling
+" CSS: {{{1
 hi cssTagName  guifg=NONE guibg=NONE gui=bold
 hi cssIdentifier  guifg=NONE guibg=NONE gui=italic
 hi link cssClassName cssIdentifier
-
 hi cssDefinition  guifg=#6e79f1 guibg=NONE gui=NONE
 hi link cssRenderProp cssDefinition
 hi link cssTextProp cssDefinition
@@ -124,14 +157,11 @@ hi link cssColorProp cssDefinition
 hi link cssBoxProp cssDefinition
 hi link cssGeneratedContentProp cssDefinition
 hi link cssUIProp cssDefinition
-
-
 hi cssCommonAttr  guifg=#00bc41 guibg=NONE gui=NONE
 hi link cssRenderAttr cssCommonAttr
 hi link cssTextAttr cssCommonAttr
 hi link cssFontAttr cssCommonAttr
 hi link cssGeneratedContentAttr cssCommonAttr
-
 hi cssURL  guifg=#007b22 guibg=NONE gui=NONE
 hi cssFunctionName  guifg=#3c4c72 guibg=NONE gui=bold
 hi cssColor  guifg=#d51015 guibg=NONE gui=bold
@@ -140,12 +170,16 @@ hi cssValueLength  guifg=#0000cd guibg=NONE gui=NONE
 hi cssBraces  guifg=NONE guibg=NONE gui=NONE
 hi cssImportant  guifg=#1e39f6 guibg=NONE gui=bold
 
-" VIMscript styling
+" Vimscript: {{{1
 hi vimGroup  guifg=#007b22 guibg=NONE gui=bold
 hi link vimHiGroup vimGroup
 
-" Markdown
+" Markdown: {{{1
 hi markdownBold gui=bold
 hi markdownItalic gui=italic
 hi markdownCode  guifg=#007b22 guibg=NONE gui=NONE
 hi link markdownCodeBlock markdownCode
+
+" Modelines: {{{1
+" vim: nowrap fdm=marker
+" }}}
