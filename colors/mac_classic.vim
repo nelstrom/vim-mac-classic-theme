@@ -21,17 +21,18 @@ hi CursorColumn  guifg=NONE guibg=#f0f6ff gui=NONE
 hi LineNr  guifg=#808080 guibg=#efefef gui=NONE
 hi VertSplit  guifg=#ffffff guibg=#cfcfcf gui=NONE
 hi MatchParen  guifg=#1e39f6 guibg=NONE gui=bold
-" Current window StatusLine
-hi StatusLine  guifg=#000000 guibg=#c6deff gui=NONE
-" Non-Current window StatusLine
-hi StatusLineNC  guifg=#000000 guibg=#efefef gui=NONE
 hi Pmenu  guifg=NONE guibg=NONE gui=NONE
 hi PmenuSel  guifg=NONE guibg=#c6deff gui=NONE
-" IncSearch is stronger than Search
-hi IncSearch  guifg=NONE guibg=#ffce77 gui=NONE
-hi Search  guifg=NONE guibg=#FFE6BB gui=NONE
 hi Directory  guifg=#d51015 guibg=NONE gui=bold
 hi Folded  guifg=#0066ff guibg=#ffffff gui=NONE
+
+" StatusLine
+hi StatusLine  guifg=#000000 guibg=#c6deff gui=NONE
+hi StatusLineNC  guifg=#000000 guibg=#efefef gui=NONE
+
+" Search matches [IncSearch is stronger than Search]
+hi IncSearch  guifg=NONE guibg=#ffce77 gui=NONE
+hi Search  guifg=NONE guibg=#FFE6BB gui=NONE
 
 hi Normal  guifg=#000000 guibg=#ffffff gui=NONE
 hi Boolean  guifg=#585cf6 guibg=NONE gui=bold
@@ -47,12 +48,10 @@ hi Function  guifg=#0000a2 guibg=NONE gui=bold
 hi Identifier  guifg=#1e39f6 guibg=NONE gui=bold
 hi Keyword  guifg=#1e39f6 guibg=NONE gui=bold
 hi Label  guifg=#036a07 guibg=NONE gui=NONE
-hi NonText  guifg=#dfdfdf guibg=#ffffff gui=NONE
 hi Number  guifg=#0000cd guibg=NONE gui=NONE
 hi Operator  guifg=#1e39f6 guibg=NONE gui=bold
 hi PreProc  guifg=#1e39f6 guibg=NONE gui=bold
 hi Special  guifg=#000000 guibg=NONE gui=NONE
-hi SpecialKey  guifg=#dfdfdf guibg=#ffffff gui=NONE
 hi Statement  guifg=#1e39f6 guibg=NONE gui=bold
 hi StorageClass  guifg=#1e39f6 guibg=NONE gui=bold
 hi String  guifg=#036a07 guibg=NONE gui=NONE
@@ -61,6 +60,10 @@ hi Title  guifg=#000000 guibg=NONE gui=bold
 hi Todo  guifg=#0066ff guibg=NONE gui=inverse,bold,italic
 hi Type  guifg=NONE guibg=NONE gui=NONE
 hi Underlined  guifg=NONE guibg=NONE gui=underline
+
+" Invisible character colors
+hi NonText  guifg=#dfdfdf guibg=#ffffff gui=NONE
+hi SpecialKey  guifg=#dfdfdf guibg=#ffffff gui=NONE
 
 " Ruby styles
 hi rubyClass  guifg=#1e39f6 guibg=NONE gui=bold
