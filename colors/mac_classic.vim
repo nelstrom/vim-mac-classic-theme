@@ -18,11 +18,10 @@ let g:colors_name = "Mac Classic"
 
 " Colors: {{{1
 " #000000
-" #3C4C72
+" #3C4C72 - BLUE/GREY - cursor, rails helpers
 " #0000A2 - D.BLUE - numbers & function names
 " #1E39F6 - BLUE
 " #0066FF - Comments, TODOs and folds
-" #526CF8 - Cursor
 " #6E79F1 - L.PURPLE - Booleans, Ruby Constants & CSS definitions
 " #318495 - BLUE/GREEN - Ruby instance/global/pseudo variables
 " #007B22 - D.GREEN - Strings, Labels and code blocks in Markdown
@@ -42,7 +41,7 @@ let g:colors_name = "Mac Classic"
 " }}}
 
 " GUI: {{{1
-hi Cursor  guifg=#FFFFFF guibg=#526CF8 gui=NONE
+hi Cursor  guifg=#FFFFFF guibg=#3C4C72 gui=NONE
 hi Visual  guifg=NONE guibg=#C6DEFF gui=NONE
 hi CursorLine  guifg=NONE guibg=#F0F6FF gui=NONE
 hi CursorColumn  guifg=NONE guibg=#F0F6FF gui=NONE
