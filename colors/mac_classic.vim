@@ -124,10 +124,16 @@ hi erubyRailsMethod  guifg=#3C4C72 gui=bold
 
 " HTML: {{{1
 hi htmlTag  guifg=#1E39F6
-hi htmlEndTag  guifg=#1E39F6
-hi htmlTagName  guifg=#1E39F6
-hi htmlArg  guifg=#1E39F6
+hi link htmlEndTag htmlTag
+hi link htmlTagName htmlTag
+hi link htmlArg htmlTag
 hi htmlSpecialChar  guifg=#D51015 gui=bold
+hi htmlH1 gui=bold
+hi link htmlH2 htmlH1
+hi link htmlH3 htmlH1
+hi link htmlH4 htmlH1
+hi link htmlH5 htmlH1
+hi link htmlH6 htmlH1
 
 " JavaScript: {{{1
 hi javaScriptFunction  guifg=#1E39F6 gui=bold
