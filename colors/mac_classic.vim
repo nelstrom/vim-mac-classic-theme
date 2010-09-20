@@ -15,34 +15,35 @@ endif
 
 let g:colors_name = "Mac Classic"
 
+
 " Colors: {{{1
 " #000000
+" #3C4C72
 " #0000A2
 " #0000CD
-" #0066FF
-" #007B22
-" #00BC41
-" #036A07
 " #1C02FF
 " #1E39F6
-" #26B31A
-" #318495
-" #3C4C72
+" #0066FF
 " #526CF8
 " #585CF6
 " #6D79DE
 " #6E79F1
+" #318495
+" #036A07
+" #007B22
+" #26B31A
+" #00BC41
 " #808080
 " #990000
+" #D51015
+" #E18AC7
+" #FFCE77
 " #FFE6BB
 " #C6DEFF
 " #CFCFCF
-" #D51015
 " #DFDFDF
-" #E18AC7
 " #EFEFEF
 " #F0F6FF
-" #FFCE77
 " #FFFFFF
 " }}}
 
