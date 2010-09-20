@@ -55,7 +55,7 @@ hi Folded  guifg=#0066FF guibg=#FFFFFF
 
 " StatusLine: {{{1
 hi StatusLine  guifg=#000000 guibg=#C6DEFF gui=italic
-hi StatusLineNC  guifg=#000000 guibg=#EFEFEF
+hi StatusLineNC  guifg=#000000 guibg=#EFEFEF gui=NONE
 
 " Search: {{{1
 " [IncSearch is stronger than Search]
