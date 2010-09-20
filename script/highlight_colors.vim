@@ -11,8 +11,6 @@ highlight Color007B22 guifg=#ffffff guibg=#007B22
 call matchadd("Color007B22", "007B22")
 highlight Color00BC41 guifg=#ffffff guibg=#00BC41
 call matchadd("Color00BC41", "00BC41")
-highlight Color036A07 guifg=#ffffff guibg=#036A07
-call matchadd("Color036A07", "036A07")
 highlight Color1C02FF guifg=#ffffff guibg=#1C02FF
 call matchadd("Color1C02FF", "1C02FF")
 highlight Color1E39F6 guifg=#ffffff guibg=#1E39F6

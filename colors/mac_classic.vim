@@ -29,8 +29,7 @@ let g:colors_name = "Mac Classic"
 " #6D79DE
 " #6E79F1
 " #318495
-" #036A07
-" #007B22
+" #007B22 - D.GREEN - Strings, Labels and code blocks in Markdown
 " #00BC41 - L.GREEN - CSS common attributes & ruby interpolation
 " #990000 - Errors and Warnings
 " #D51015 - RED for constants, symbols, numbers
@@ -81,14 +80,14 @@ hi Float  guifg=#0000CD guibg=NONE gui=NONE
 hi Function  guifg=#0000A2 guibg=NONE gui=bold
 hi Identifier  guifg=#1E39F6 guibg=NONE gui=bold
 hi Keyword  guifg=#1E39F6 guibg=NONE gui=bold
-hi Label  guifg=#036A07 guibg=NONE gui=NONE
+hi Label  guifg=#007B22 guibg=NONE gui=NONE
 hi Number  guifg=#0000CD guibg=NONE gui=NONE
 hi Operator  guifg=#1E39F6 guibg=NONE gui=bold
 hi PreProc  guifg=#1E39F6 guibg=NONE gui=bold
 hi Special  guifg=#000000 guibg=NONE gui=NONE
 hi Statement  guifg=#1E39F6 guibg=NONE gui=bold
 hi StorageClass  guifg=#1E39F6 guibg=NONE gui=bold
-hi String  guifg=#036A07 guibg=NONE gui=NONE
+hi String  guifg=#007B22 guibg=NONE gui=NONE
 hi Tag  guifg=NONE guibg=NONE gui=NONE
 hi Title  guifg=#000000 guibg=NONE gui=bold
 hi Todo  guifg=#0066FF guibg=NONE gui=inverse,bold,italic
@@ -106,7 +105,7 @@ hi rubyInterpolationDelimiter  guifg=#00BC41 guibg=NONE gui=NONE
 hi rubyInterpolation  guifg=#00BC41 guibg=NONE gui=NONE
 hi rubySymbol  guifg=#D51015 guibg=NONE gui=bold
 hi rubyConstant  guifg=#6D79DE guibg=NONE gui=bold
-hi rubyStringDelimiter  guifg=#036A07 guibg=NONE gui=NONE
+hi rubyStringDelimiter  guifg=#007B22 guibg=NONE gui=NONE
 hi rubyBlockParameter  guifg=NONE guibg=NONE gui=NONE
 hi rubyInstanceVariable  guifg=#318495 guibg=NONE gui=NONE
 hi rubyInclude  guifg=#1E39F6 guibg=NONE gui=bold
