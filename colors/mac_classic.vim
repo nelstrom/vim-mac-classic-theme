@@ -17,6 +17,9 @@ let g:colors_name = "Mac Classic"
 
 
 " Colors: {{{1
+" hint: to see what the colors look like, run:
+"   :source script/highlight_colors.vim
+"
 " #000000
 " #3C4C72 - BLUE/GREY - cursor, rails helpers
 " #0000A2 - D.BLUE - numbers & function names
@@ -175,6 +178,12 @@ hi markdownItalic gui=italic
 hi markdownCode  guifg=#007B22
 hi link markdownCodeBlock markdownCode
 
+" Outliner: {{{1
+hi BT1 guifg=#808080 gui=italic
+hi OL1 guifg=#000000 gui=bold
+hi OL2 guifg=#0000A2 gui=bold
+hi OL3 guifg=#007B22 gui=bold
+hi OL4 guifg=#6E79F1 gui=NONE
 " Modelines: {{{1
 " vim: nowrap fdm=marker
 " }}}
