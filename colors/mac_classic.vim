@@ -25,10 +25,8 @@ let g:colors_name = "Mac Classic"
 " #1E39F6
 " #0066FF
 " #526CF8 - Cursor
-" #585CF6
-" #6D79DE
-" #6E79F1
-" #318495
+" #6E79F1 - L.PURPLE - Booleans, Ruby Constants & CSS definitions
+" #318495 - BLUE/GREEN - Ruby instance/global/pseudo variables
 " #007B22 - D.GREEN - Strings, Labels and code blocks in Markdown
 " #00BC41 - L.GREEN - CSS common attributes & ruby interpolation
 " #990000 - Errors and Warnings
@@ -68,7 +66,7 @@ hi IncSearch  guifg=NONE guibg=#FFCE77 gui=NONE
 hi Search  guifg=NONE guibg=#FFE6BB gui=NONE
 
 hi Normal  guifg=#000000 guibg=#FFFFFF gui=NONE
-hi Boolean  guifg=#585CF6 guibg=NONE gui=bold
+hi Boolean  guifg=#6E79F1 guibg=NONE gui=bold
 hi Character  guifg=#D51015 guibg=NONE gui=bold
 hi Comment  guifg=#0066FF guibg=NONE gui=italic
 hi Conditional  guifg=#1E39F6 guibg=NONE gui=bold
@@ -104,7 +102,7 @@ hi rubyFunction  guifg=#0000A2 guibg=NONE gui=bold
 hi rubyInterpolationDelimiter  guifg=#00BC41 guibg=NONE gui=NONE
 hi rubyInterpolation  guifg=#00BC41 guibg=NONE gui=NONE
 hi rubySymbol  guifg=#D51015 guibg=NONE gui=bold
-hi rubyConstant  guifg=#6D79DE guibg=NONE gui=bold
+hi rubyConstant  guifg=#6E79F1 guibg=NONE gui=bold
 hi rubyStringDelimiter  guifg=#007B22 guibg=NONE gui=NONE
 hi rubyBlockParameter  guifg=NONE guibg=NONE gui=NONE
 hi rubyInstanceVariable  guifg=#318495 guibg=NONE gui=NONE
@@ -123,7 +121,7 @@ hi rubyClassVariable  guifg=NONE guibg=NONE gui=NONE
 hi rubyOperator  guifg=#1E39F6 guibg=NONE gui=bold
 hi rubyException  guifg=#1E39F6 guibg=NONE gui=bold
 hi rubyPseudoVariable  guifg=#318495 guibg=NONE gui=NONE
-hi rubyRailsUserClass  guifg=#6D79DE guibg=NONE gui=bold
+hi rubyRailsUserClass  guifg=#6E79F1 guibg=NONE gui=bold
 hi rubyRailsARAssociationMethod  guifg=#3C4C72 guibg=NONE gui=bold
 hi rubyRailsARMethod  guifg=#3C4C72 guibg=NONE gui=bold
 hi rubyRailsRenderMethod  guifg=#3C4C72 guibg=NONE gui=bold
