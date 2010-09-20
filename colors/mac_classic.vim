@@ -19,13 +19,9 @@ let g:colors_name = "Mac Classic"
 " Colors: {{{1
 " #000000
 " #3C4C72
-
-" #0000A2
-" #0000CD
-
+" #0000A2 - D.BLUE - numbers & function names
 " #1E39F6 - BLUE
 " #0066FF - Comments, TODOs and folds
-
 " #526CF8 - Cursor
 " #6E79F1 - L.PURPLE - Booleans, Ruby Constants & CSS definitions
 " #318495 - BLUE/GREEN - Ruby instance/global/pseudo variables
@@ -42,7 +38,7 @@ let g:colors_name = "Mac Classic"
 " #DFDFDF - Invisible Characters
 " #EFEFEF - LineNumber & Non-Current StatusLine
 " #F0F6FF - CursorLine & CursorColumn
-" #FFFFFF
+" #FFFFFF - WHITE
 " }}}
 
 " GUI: {{{1
@@ -76,12 +72,12 @@ hi Constant  guifg=#D51015 guibg=NONE gui=bold
 hi Define  guifg=#1E39F6 guibg=NONE gui=bold
 hi ErrorMsg  guifg=#FFFFFF guibg=#990000 gui=NONE
 hi WarningMsg  guifg=#FFFFFF guibg=#990000 gui=NONE
-hi Float  guifg=#0000CD guibg=NONE gui=NONE
+hi Float  guifg=#0000A2 guibg=NONE gui=NONE
 hi Function  guifg=#0000A2 guibg=NONE gui=bold
 hi Identifier  guifg=#1E39F6 guibg=NONE gui=bold
 hi Keyword  guifg=#1E39F6 guibg=NONE gui=bold
 hi Label  guifg=#007B22 guibg=NONE gui=NONE
-hi Number  guifg=#0000CD guibg=NONE gui=NONE
+hi Number  guifg=#0000A2 guibg=NONE gui=NONE
 hi Operator  guifg=#1E39F6 guibg=NONE gui=bold
 hi PreProc  guifg=#1E39F6 guibg=NONE gui=bold
 hi Special  guifg=#000000 guibg=NONE gui=NONE
@@ -165,7 +161,7 @@ hi cssURL  guifg=#007B22 guibg=NONE gui=NONE
 hi cssFunctionName  guifg=#3C4C72 guibg=NONE gui=bold
 hi cssColor  guifg=#D51015 guibg=NONE gui=bold
 hi cssPseudoClassId  guifg=NONE guibg=NONE gui=NONE
-hi cssValueLength  guifg=#0000CD guibg=NONE gui=NONE
+hi cssValueLength  guifg=#0000A2 guibg=NONE gui=NONE
 hi cssBraces  guifg=NONE guibg=NONE gui=NONE
 hi cssImportant  guifg=#1E39F6 guibg=NONE gui=bold
 
