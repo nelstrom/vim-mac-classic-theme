@@ -19,11 +19,13 @@ let g:colors_name = "Mac Classic"
 " Colors: {{{1
 " #000000
 " #3C4C72
+
 " #0000A2
 " #0000CD
-" #1C02FF
-" #1E39F6
-" #0066FF
+
+" #1E39F6 - BLUE
+" #0066FF - Comments, TODOs and folds
+
 " #526CF8 - Cursor
 " #6E79F1 - L.PURPLE - Booleans, Ruby Constants & CSS definitions
 " #318495 - BLUE/GREEN - Ruby instance/global/pseudo variables
@@ -127,12 +129,12 @@ hi rubyRailsARMethod  guifg=#3C4C72 guibg=NONE gui=bold
 hi rubyRailsRenderMethod  guifg=#3C4C72 guibg=NONE gui=bold
 hi rubyRailsMethod  guifg=#3C4C72 guibg=NONE gui=bold
 hi erubyDelimiter  guifg=NONE guibg=NONE gui=NONE
-hi erubyComment  guifg=#0066FF guibg=NONE gui=italic
+hi link erubyComment Comment
 hi erubyRailsMethod  guifg=#3C4C72 guibg=NONE gui=bold
-hi htmlTag  guifg=#1C02FF guibg=NONE gui=NONE
-hi htmlEndTag  guifg=#1C02FF guibg=NONE gui=NONE
-hi htmlTagName  guifg=#1C02FF guibg=NONE gui=NONE
-hi htmlArg  guifg=#1C02FF guibg=NONE gui=NONE
+hi htmlTag  guifg=#1E39F6 guibg=NONE gui=NONE
+hi htmlEndTag  guifg=#1E39F6 guibg=NONE gui=NONE
+hi htmlTagName  guifg=#1E39F6 guibg=NONE gui=NONE
+hi htmlArg  guifg=#1E39F6 guibg=NONE gui=NONE
 hi htmlSpecialChar  guifg=#D51015 guibg=NONE gui=bold
 hi javaScriptFunction  guifg=#1E39F6 guibg=NONE gui=bold
 hi javaScriptRailsFunction  guifg=#3C4C72 guibg=NONE gui=bold
