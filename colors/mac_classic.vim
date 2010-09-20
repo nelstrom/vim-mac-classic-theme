@@ -24,26 +24,25 @@ let g:colors_name = "Mac Classic"
 " #1C02FF
 " #1E39F6
 " #0066FF
-" #526CF8
+" #526CF8 - Cursor
 " #585CF6
 " #6D79DE
 " #6E79F1
 " #318495
 " #036A07
 " #007B22
-" #26B31A
-" #00BC41
-" #808080
-" #990000
-" #D51015
-" #E18AC7
-" #FFCE77
-" #FFE6BB
-" #C6DEFF
-" #CFCFCF
-" #DFDFDF
-" #EFEFEF
-" #F0F6FF
+" #00BC41 - L.GREEN - CSS common attributes & ruby interpolation
+" #990000 - Errors and Warnings
+" #D51015 - RED for constants, symbols, numbers
+" #E18AC7 - RegularExpressions in Ruby
+" #FFCE77 - Incremental Search
+" #FFE6BB - Search
+" #C6DEFF - Visual, Current StatusLine & AutoComplete selection
+" #808080 - Line numbers
+" #CFCFCF - VerticalSplit separator
+" #DFDFDF - Invisible Characters
+" #EFEFEF - LineNumber & Non-Current StatusLine
+" #F0F6FF - CursorLine & CursorColumn
 " #FFFFFF
 " }}}
 
@@ -119,7 +118,7 @@ hi rubyRegexpParens  guifg=#E18AC7 guibg=NONE gui=NONE
 hi rubyRegexpEscape  guifg=#00BC41 guibg=NONE gui=NONE
 hi rubyRegexpCharClass  guifg=#00BC41 guibg=NONE gui=NONE
 hi rubyRegexpDelimiter  guifg=#E18AC7 guibg=NONE gui=NONE
-hi rubyEscape  guifg=#26B31A guibg=NONE gui=NONE
+hi rubyEscape  guifg=#00BC41 guibg=NONE gui=NONE
 hi rubyControl  guifg=#1E39F6 guibg=NONE gui=bold
 hi rubyClassVariable  guifg=NONE guibg=NONE gui=NONE
 hi rubyOperator  guifg=#1E39F6 guibg=NONE gui=bold
