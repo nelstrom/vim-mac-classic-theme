@@ -49,8 +49,8 @@ hi Visual  guibg=#C6DEFF
 hi CursorLine  guibg=#F0F6FF
 hi CursorColumn  guibg=#F0F6FF
 hi LineNr  guifg=#808080 guibg=#EFEFEF
-hi VertSplit  guifg=#FFFFFF guibg=#CFCFCF
-hi MatchParen  guifg=#1E39F6 gui=bold
+hi VertSplit  guifg=#FFFFFF guibg=#CFCFCF gui=NONE
+hi MatchParen  guifg=#1E39F6 guibg=NONE gui=bold
 hi Pmenu guibg=#EFEFEF
 hi PmenuSel  guibg=#C6DEFF
 hi Directory  guifg=#D51015 gui=bold
@@ -62,7 +62,7 @@ hi StatusLineNC  guifg=#000000 guibg=#EFEFEF gui=NONE
 
 " Search: {{{1
 " [IncSearch is stronger than Search]
-hi IncSearch  guibg=#FFCE77
+hi IncSearch  guifg=NONE guibg=#FFCE77 gui=NONE
 hi Search  guibg=#FFE6BB
 
 hi Normal  guifg=#000000 guibg=#FFFFFF
