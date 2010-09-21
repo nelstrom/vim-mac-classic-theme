@@ -140,7 +140,20 @@ hi link htmlH6 htmlH1
 
 " JavaScript: {{{1
 hi javaScriptFunction  guifg=#1E39F6 gui=bold
+hi javaScriptFuncName  guifg=#0000A2 gui=bold
 hi javaScriptRailsFunction  guifg=#3C4C72 gui=bold
+hi javaScriptLabel  guifg=#000000 gui=none
+hi javaScriptType  guifg=#318495 gui=none
+hi javaScriptArgument  guifg=#318495 gui=italic
+" NOTE: Syntax Highlighting for javascript doesn't match the
+" TextMate version very accurately, because the javascript
+" syntax file does not create matches for some items. In
+" particular:
+" * javaScriptArgument - e.g. function(argument)
+" * javaScriptFuncName for object literal style functions - e.g.: 
+"     myFunction: function() { ... }
+
+" YAML: {{{1
 hi yamlAnchor  guifg=#318495
 hi yamlAlias  guifg=#318495
 hi yamlDocumentHeader  guibg=#F2F2F2
