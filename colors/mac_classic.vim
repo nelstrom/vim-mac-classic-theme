@@ -184,6 +184,7 @@ hi cssImportant  guifg=#1E39F6 gui=bold
 " Vimscript: {{{1
 hi vimGroup  guifg=#007B22 gui=bold
 hi link vimHiGroup vimGroup
+hi vimCommentTitle  guifg=#3C4C72 gui=bold
 
 " Markdown: {{{1
 hi markdownBold gui=bold
