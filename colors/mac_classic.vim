@@ -17,8 +17,6 @@ let g:colors_name = "Mac Classic"
 
 
 " Colors: {{{1
-" hint: to see what the colors look like, run:
-"   :source script/highlight_colors.vim
 " TODO figure out how to not highlight TODO
 "
 " #000000
