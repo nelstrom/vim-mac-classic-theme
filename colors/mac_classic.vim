@@ -93,6 +93,12 @@ hi Underlined  gui=underline
 hi NonText  guifg=#DFDFDF ctermfg=253 guibg=#FFFFFF ctermbg=15
 hi SpecialKey  guifg=#DFDFDF ctermfg=253 guibg=#FFFFFF ctermbg=15
 
+" Diff styles {{{1
+hi diffAdded guifg=#007B22 guibg=#FFFFFF ctermfg=28 ctermbg=15
+hi diffRemoved guifg=#D51015 guibg=#FFFFFF ctermfg=160 ctermbg=15
+hi diffFile guifg=#6E79F1 guibg=#FFFFFF ctermfg=69 ctermbg=15
+hi diffNewFile guifg=#6E79F1 guibg=#FFFFFF ctermfg=69 ctermbg=15
+hi diffLine guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15
 " Ruby styles {{{1
 hi rubyClass  guifg=#1E39F6 ctermfg=27 gui=bold
 hi rubyFunction  guifg=#0000A2 ctermfg=19 gui=bold
