@@ -13,7 +13,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = "Mac Classic"
+let g:colors_name = "mac_classic"
 
 
 " Colors: {{{1
