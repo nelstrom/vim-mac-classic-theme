@@ -19,6 +19,7 @@ if has("gui_running")
 endif
 
 hi Normal guifg=#000000 ctermfg=16  guibg=#FFFFFF ctermbg=231
+hi Visual guibg=#C6DEFF ctermbg=189
 hi Folded guifg=#808080 ctermfg=244 guibg=#ECECEC ctermbg=255 gui=bold cterm=bold
 
 hi link vimFold    Folded
