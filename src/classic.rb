@@ -14,11 +14,12 @@ pink        = "E18AC7" # PINK RegularExpressions in Ruby
 orange      = "FFCE77" # ORANGE - Incremental Search
 l_orange    = "FFE6BB" # L.ORANGE - Search
 paleblue    = "C6DEFF" # VL.BLUE Visual, Current StatusLine & AutoComplete selection
-# = "808080" # Line numbers
-# = "CFCFCF" # VerticalSplit separator
-# = "DFDFDF" # Invisible Characters
-# = "EFEFEF" # LineNumber & Non-Current StatusLine
-# = "F0F6FF" # CursorLine & CursorColumn
+# shades of grey...
+darkgrey = "808080" # Line numbers
+grey = "CFCFCF" # VerticalSplit separator
+lightgrey = "DFDFDF" # Invisible Characters
+palegrey = "EFEFEF" # LineNumber & Non-Current StatusLine
+offwhite = "F0F6FF" # CursorLine & CursorColumn
 
 
 vim_colors "classic" do
@@ -28,11 +29,19 @@ vim_colors "classic" do
   reset      true
   background :light
 
-  # Group color, bgcolor
+  # Group fgcolor, bgcolor
   Normal black, white
   # Group :bg => bgcolor, :fg => color
   Visual :bg => paleblue
+  CursorLine  :bg => offwhite
+  link :CursorColumn, :to => :CursorLine
 
-  Folded "808080", "ECECEC", :gui => "bold"
-  link :vimFold, :FoldColumn, :to => :Folded
+  LineNr  darkgrey, palegrey
+  VertSplit white, grey, :gui=> 'NONE'
+  MatchParen :fg => blue, :bg => white, gui => 'NONE'
+  #Pmenu guibg=#EFEFEF ctermbg=7
+  #PmenuSel  guibg=#C6DEFF ctermbg=189
+  #Directory  guifg=#D51015 ctermfg=160 gui=bold
+  #Folded  guifg=#0066FF ctermfg=27 guibg=#FFFFFF ctermbg=15
+
 end

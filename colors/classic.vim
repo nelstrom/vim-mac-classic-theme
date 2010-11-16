@@ -18,9 +18,12 @@ if has("gui_running")
     set background=light
 endif
 
-hi Normal guifg=#000000 ctermfg=16  guibg=#FFFFFF ctermbg=231
-hi Visual guibg=#C6DEFF ctermbg=189
-hi Folded guifg=#808080 ctermfg=244 guibg=#ECECEC ctermbg=255 gui=bold cterm=bold
+hi Normal     guifg=#000000 ctermfg=16  guibg=#FFFFFF ctermbg=231
+hi Visual     guibg=#C6DEFF ctermbg=189
+hi CursorLine guibg=#F0F6FF ctermbg=231
+hi LineNr     guifg=#808080 ctermfg=244 guibg=#EFEFEF ctermbg=255
+hi VertSplit  guifg=#FFFFFF ctermfg=231 guibg=#CFCFCF ctermbg=252 gui=NONE cterm=NONE
 
-hi link vimFold    Folded
-hi link FoldColumn Folded
+hi MatchParen guifg=#1E39F6 ctermfg=27  guibg=#FFFFFF ctermbg=231
+
+hi link CursorColumn CursorLine
