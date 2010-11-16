@@ -1,3 +1,5 @@
+# vim: nowrap fdm=marker
+# colors {{{1
 black       = "000"
 white       = "fff"
 bluegrey    = "3C4C72" # BLUE/GREY - cursor, rails helpers
@@ -19,8 +21,7 @@ darkgrey = "808080" # Line numbers
 grey = "CFCFCF" # VerticalSplit separator
 lightgrey = "DFDFDF" # Invisible Characters
 palegrey = "EFEFEF" # LineNumber & Non-Current StatusLine
-offwhite = "F0F6FF" # CursorLine & CursorColumn
-
+offwhite = "F0F6FF" # CursorLine & CursorColumn }}}
 
 vim_colors "classic" do
   author "Drew Neil"
@@ -29,19 +30,40 @@ vim_colors "classic" do
   reset      true
   background :light
 
-  # Group fgcolor, bgcolor
-  Normal black, white
-  # Group :bg => bgcolor, :fg => color
-  Visual :bg => paleblue
-  CursorLine  :bg => offwhite
-  link :CursorColumn, :to => :CursorLine
+  Cursor white, bluegrey
+  Visual     :bg => paleblue
+  CursorLine :bg => offwhite
+  link       :CursorColumn,  :to => :CursorLine
 
   LineNr  darkgrey, palegrey
   VertSplit white, grey, :gui=> 'NONE'
   MatchParen :fg => blue, :bg => white, gui => 'NONE'
-  #Pmenu guibg=#EFEFEF ctermbg=7
-  #PmenuSel  guibg=#C6DEFF ctermbg=189
-  #Directory  guifg=#D51015 ctermfg=160 gui=bold
-  #Folded  guifg=#0066FF ctermfg=27 guibg=#FFFFFF ctermbg=15
+  Pmenu :bg => palegrey
+  PmenuSel  :bg => paleblue
+  Directory  red,  :gui => 'bold'
+  Folded  lightblue, white
 
+  # StatusLine
+  StatusLine  black, paleblue, :gui => 'italic'
+  StatusLineNC black, palegrey, :gui => 'NONE'
+
+  # Search
+  IncSearch :bg => orange, :gui => 'NONE'
+  Search :bg => l_orange
+
+  # Syntax
+  Normal black, white
+  Boolean  lightpurple, :gui => 'bold'
+  Character  red, :gui => 'bold'
+  Comment  lightblue, :gui => 'italic'
+  Conditional  blue, :gui => 'bold'
+  Constant  red, :gui => 'bold'
+  Define  blue, :gui => 'bold'
+  ErrorMsg white, burgundy
+  link :WarningMsg,  :to => :ErrorMsg
+  #Float darkblue
+  MyFloat darkblue, :gui => 'bold'
+  Function darkblue, :gui => 'bold'
+  link :Float,  :to => :Function
+  Identifier  blue, :gui => 'bold'
 end

@@ -18,12 +18,33 @@ if has("gui_running")
     set background=light
 endif
 
-hi Normal     guifg=#000000 ctermfg=16  guibg=#FFFFFF ctermbg=231
-hi Visual     guibg=#C6DEFF ctermbg=189
-hi CursorLine guibg=#F0F6FF ctermbg=231
-hi LineNr     guifg=#808080 ctermfg=244 guibg=#EFEFEF ctermbg=255
-hi VertSplit  guifg=#FFFFFF ctermfg=231 guibg=#CFCFCF ctermbg=252 gui=NONE cterm=NONE
+hi Cursor       guifg=#FFFFFF ctermfg=231 guibg=#3C4C72 ctermbg=239
+hi Visual       guibg=#C6DEFF ctermbg=189
+hi CursorLine   guibg=#F0F6FF ctermbg=231
+hi LineNr       guifg=#808080 ctermfg=244 guibg=#EFEFEF ctermbg=255
+hi VertSplit    guifg=#FFFFFF ctermfg=231 guibg=#CFCFCF ctermbg=252 gui=NONE cterm=NONE
 
-hi MatchParen guifg=#1E39F6 ctermfg=27  guibg=#FFFFFF ctermbg=231
+hi MatchParen   guifg=#1E39F6 ctermfg=27  guibg=#FFFFFF ctermbg=231
+hi Pmenu        guibg=#EFEFEF ctermbg=255
+hi PmenuSel     guibg=#C6DEFF ctermbg=189
+hi Directory    guifg=#D51015 ctermfg=160 gui=bold cterm=bold
+hi Folded       guifg=#0066FF ctermfg=27  guibg=#FFFFFF ctermbg=231
+hi StatusLine   guifg=#000000 ctermfg=16  guibg=#C6DEFF ctermbg=189 gui=italic
+hi StatusLineNC guifg=#000000 ctermfg=16  guibg=#EFEFEF ctermbg=255 gui=NONE cterm=NONE
+hi IncSearch    guibg=#FFCE77 ctermbg=222 gui=NONE cterm=NONE
+hi Search       guibg=#FFE6BB ctermbg=223
+hi Normal       guifg=#000000 ctermfg=16  guibg=#FFFFFF ctermbg=231
+hi Boolean      guifg=#6E79F1 ctermfg=69  gui=bold cterm=bold
+hi Character    guifg=#D51015 ctermfg=160 gui=bold cterm=bold
+hi Comment      guifg=#0066FF ctermfg=27  gui=italic
+hi Conditional  guifg=#1E39F6 ctermfg=27  gui=bold cterm=bold
+hi Constant     guifg=#D51015 ctermfg=160 gui=bold cterm=bold
+hi Define       guifg=#1E39F6 ctermfg=27  gui=bold cterm=bold
+hi ErrorMsg     guifg=#FFFFFF ctermfg=231 guibg=#990000 ctermbg=88
+hi MyFloat      guifg=#0000A2 ctermfg=19  gui=bold cterm=bold
+hi Function     guifg=#0000A2 ctermfg=19  gui=bold cterm=bold
+hi Identifier   guifg=#1E39F6 ctermfg=27  gui=bold cterm=bold
 
 hi link CursorColumn CursorLine
+hi link WarningMsg   ErrorMsg
+hi link Float        Function
