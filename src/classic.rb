@@ -64,4 +64,16 @@ vim_colors "classic" do
   Float darkblue
   Function darkblue, :gui => 'bold'
   Identifier  blue, :gui => 'bold'
+  link :Keyword, :Operator, :PreProc, :Statement, :StorageClass, :to => :Define
+  Label darkgreen
+  link :Number, :to => :Float
+  Special black
+  link :String, :to => :Label
+  Title  :fg => black, :gui => 'bold'
+  Todo  :fg => lightblue, :gui => 'inverse,bold,italic'
+  Underlined  :gui => 'underline'
+
+  # Invisible character
+  NonText  lightgrey, white
+  SpecialKey  lightgrey, white
 end

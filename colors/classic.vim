@@ -44,6 +44,20 @@ hi ErrorMsg     guifg=#FFFFFF ctermfg=231 guibg=#990000 ctermbg=88
 hi Float        guifg=#0000A2 ctermfg=19
 hi Function     guifg=#0000A2 ctermfg=19  gui=bold cterm=bold
 hi Identifier   guifg=#1E39F6 ctermfg=27  gui=bold cterm=bold
+hi Label        guifg=#007B22 ctermfg=28
+hi Special      guifg=#000000 ctermfg=16
+hi Title        guifg=#000000 ctermfg=16  gui=bold cterm=bold
+hi Todo         guifg=#0066FF ctermfg=27  gui=inverse,bold,italic
+hi Underlined   gui=underline cterm=underline
+hi NonText      guifg=#DFDFDF ctermfg=253 guibg=#FFFFFF ctermbg=231
+hi SpecialKey   guifg=#DFDFDF ctermfg=253 guibg=#FFFFFF ctermbg=231
 
 hi link CursorColumn CursorLine
 hi link WarningMsg   ErrorMsg
+hi link Keyword      Define
+hi link Operator     Define
+hi link PreProc      Define
+hi link Statement    Define
+hi link StorageClass Define
+hi link Number       Float
+hi link String       Label
