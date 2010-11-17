@@ -61,9 +61,7 @@ vim_colors "classic" do
   Define  blue, :gui => 'bold'
   ErrorMsg white, burgundy
   link :WarningMsg,  :to => :ErrorMsg
-  #Float darkblue
-  MyFloat darkblue, :gui => 'bold'
+  Float darkblue
   Function darkblue, :gui => 'bold'
-  link :Float,  :to => :Function
   Identifier  blue, :gui => 'bold'
 end

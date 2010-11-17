@@ -41,10 +41,9 @@ hi Conditional  guifg=#1E39F6 ctermfg=27  gui=bold cterm=bold
 hi Constant     guifg=#D51015 ctermfg=160 gui=bold cterm=bold
 hi Define       guifg=#1E39F6 ctermfg=27  gui=bold cterm=bold
 hi ErrorMsg     guifg=#FFFFFF ctermfg=231 guibg=#990000 ctermbg=88
-hi MyFloat      guifg=#0000A2 ctermfg=19  gui=bold cterm=bold
+hi Float        guifg=#0000A2 ctermfg=19
 hi Function     guifg=#0000A2 ctermfg=19  gui=bold cterm=bold
 hi Identifier   guifg=#1E39F6 ctermfg=27  gui=bold cterm=bold
 
 hi link CursorColumn CursorLine
 hi link WarningMsg   ErrorMsg
-hi link Float        Function
