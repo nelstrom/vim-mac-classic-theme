@@ -99,7 +99,13 @@ hi diffRemoved guifg=#D51015 guibg=#FFFFFF ctermfg=160 ctermbg=15
 hi diffFile guifg=#6E79F1 guibg=#FFFFFF ctermfg=69 ctermbg=15
 hi diffNewFile guifg=#6E79F1 guibg=#FFFFFF ctermfg=69 ctermbg=15
 hi diffLine guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15
+
+hi diffAdd guifg=#007B22 guibg=#FFFFFF ctermfg=28 ctermbg=15
+hi diffChange guifg=#007B22 guibg=#FFFFFF ctermfg=28 ctermbg=15
+hi diffText guifg=#007B22 guibg=#FFFFFF ctermfg=28 ctermbg=15
+hi link diffDelete diffRemoved
 " Git styles {{{1
+hi gitcommitFirstLine guifg=#000000 guibg=#FFFFFF ctermfg=0 ctermbg=15
 hi gitcommitSelectedType guifg=#007B22 guibg=#FFFFFF ctermfg=28 ctermbg=15
 hi link gitcommitSelectedFile gitcommitSelectedType
 hi gitcommitDiscardedType guifg=#D51015 guibg=#FFFFFF ctermfg=160 ctermbg=15
@@ -136,6 +142,8 @@ hi rubyRailsMethod  guifg=#3C4C72 ctermfg=240 gui=bold
 hi link erubyComment Comment
 hi erubyRailsMethod  guifg=#3C4C72 ctermfg=240 gui=bold
 
+" XML: {{{1
+hi link xmlEndTag xmlTag
 " HTML: {{{1
 hi htmlTag  guifg=#1E39F6 ctermfg=27
 hi link htmlEndTag htmlTag
