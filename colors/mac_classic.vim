@@ -192,6 +192,7 @@ hi link cssBoxProp cssDefinition
 hi link cssGeneratedContentProp cssDefinition
 hi link cssUIProp cssDefinition
 hi cssCommonAttr  guifg=#00BC41 ctermfg=35
+hi link cssAttr cssCommonAttr
 hi link cssRenderAttr cssCommonAttr
 hi link cssTextAttr cssCommonAttr
 hi link cssFontAttr cssCommonAttr
